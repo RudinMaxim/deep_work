@@ -10,6 +10,7 @@ import (
 	"deep-work-app/internal/domain/deepwork"
 	"deep-work-app/internal/infrastructure/persistence"
 	"deep-work-app/internal/infrastructure/services"
+	"deep-work-app/internal/infrastructure/services/commands"
 )
 
 type Application struct {

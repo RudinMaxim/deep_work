@@ -30,3 +30,7 @@ func (q *GetStatsQuery) Execute() error {
 
 	return os.WriteFile("stats.json", data, 0644)
 }
+
+func GetStats(repo deepwork.Repository) (string, error) {
+
+}
