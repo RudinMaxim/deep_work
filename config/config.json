@@ -1,0 +1,51 @@
+{
+  "music_file": "path/to/music/file.mp3",
+  "music_playlists": ["playlist1", "playlist2"],
+  "programs_to_launch": {
+    "development": ["code", "go"],
+    "productivity": ["todoist", "notion"],
+    "work_specific": ["slack", "zoom"],
+    "documentation": ["browser"],
+    "custom_scripts": {
+      "script1": "path/to/script1.sh",
+      "script2": "path/to/script2.sh"
+    }
+  },
+  "programs_to_block": {
+    "social_media": ["facebook", "twitter"],
+    "entertainment": ["netflix", "spotify"],
+    "browsers": ["chrome", "firefox"],
+    "other_distractions": ["games"]
+  },
+  "browser_allowed_urls": ["https://example.com"],
+  "deep_work_settings": {
+    "session_duration_minutes": 60,
+    "short_break_minutes": 5,
+    "long_break_minutes": 15,
+    "sessions_until_long_break": 4,
+    "notification_interval_minutes": 10,
+    "auto_start_time": "09:00",
+    "auto_end_time": "17:00",
+    "working_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "automatic_backup": true,
+    "backup_interval": 30
+  },
+  "workspace_setup": {
+    "window_positions": {
+      "code": {"x": 0, "y": 0, "width": 800, "height": 600},
+      "browser": {"x": 800, "y": 0, "width": 800, "height": 600}
+    },
+    "display_setup": {
+      "brightness": 80,
+      "color_temperature": 6500,
+      "notification_sound": true
+    }
+  },
+  "statistics": {
+    "total_sessions": 0,
+    "total_focus_time": 0,
+    "distraction_attempts": 0,
+    "completed_tasks": 0,
+    "last_session": "1970-01-01T00:00:00Z"
+  }
+}
